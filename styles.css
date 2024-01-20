@@ -1,11 +1,17 @@
 .grid_container {
     height: 920px;
     width: 920px;
-    border: solid black;
+    border: solid red;
+    display: flex;
+    flex-direction: column;
 }
 
-/* .grid_div {
-    height: 16px;
-    width: 16px;
-    border: solid black;
-} */
+.row_div {
+    display:flex;
+    flex:1 1 0px;
+}
+
+.grid_div {
+    border: solid green 2px;
+    flex:1 1 0px;
+}
